@@ -23,7 +23,7 @@ Handout Files:
 
 ![img-description](checksec_guard.png){: w="275" .normal}
 
-Since its Partial RELRO, we can access the GOT to make our exploit.
+Since its Partial RELRO, we can overwrite `.got.plt` to make our exploit.
 
 Let\'s disassemble the binary and see what it holds...
 
